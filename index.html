@@ -1,0 +1,228 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Manjinder Kaur</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<style>
+		.read-more-state {
+  display: none;
+}
+
+.read-more-target {
+  opacity: 0;
+  max-height: 0;
+  font-size: 0;
+  transition: .25s ease;
+}
+
+.read-more-state:checked ~ .read-more-wrap .read-more-target {
+  opacity: 1;
+  font-size: inherit;
+  max-height: 999em;
+}
+
+.read-more-state ~ .read-more-trigger:before {
+  content: 'Show more';
+}
+
+.read-more-state:checked ~ .read-more-trigger:before {
+  content: 'Show less';
+}
+
+.read-more-trigger {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 .5em;
+  color: #666;
+  font-size: .9em;
+  line-height: 2;
+  border: 1px solid #ddd;
+  border-radius: .25em;
+}
+
+/* Other style */ 
+body {
+  padding: 2%;
+}
+
+p {
+  padding: 2%;
+  background: #fff9c6;
+  color: #696969;
+  border: 1px solid #fce29f;
+  border-radius: .25em;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #F78181;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+	</style>
+	<body class="is-preload">
+
+		<!-- Wrapper-->
+			<div id="wrapper">
+
+				<!-- Nav -->
+					<nav id="nav">
+						<a href="#" class="icon solid fa-home"><span>Home</span></a>
+						<a href="#work" class="icon solid fa-folder"><span>Work</span></a>
+						<a href="#contact" class="icon solid fa-envelope"><span>Contact</span></a>
+						
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Me -->
+							<article id="home" class="panel intro">
+								<header>
+									<h1>Manjinder Kaur</h1>
+									<p>Front End Developer</p>
+									<p>Your limitation—it’s only your imagination.</p>
+								</header>
+								<a href="#work" class="jumplink pic">
+									<span class="arrow icon solid fa-chevron-right"><span>See my work</span></span>
+									<img src="images/mine.jpg" alt="" />
+								</a>
+							</article>
+
+						<!-- Work -->
+							<article id="work" class="panel">
+								<header>
+									<h2>Work</h2>
+								</header>
+								<p>
+									Don't be Afraid to Fail,
+									Be Afraid Not to Try.
+								</p>
+								<section>
+									<div class="row">
+										<div class="col-4 col-6-medium col-12-small">
+											<input type="checkbox" class="read-more-state" id="post-1" />
+											<a href="https://github.com/Manjinder-Kaur/TradeGo" class="image fit"><img src="images/inventory-management-system.png" alt=""></a>
+											<p class="read-more-wrap">
+												TradeGo is an inventory system website that was able to maintain and sells products.<span class="read-more-target"></span><br>
+												This is a team project and I work with front-end team.<br>
+												<b>Technologies used:</b> React js along with CSS and HTML in front-end.<br>
+												calling the database (using SQL queries) with API’s in the back-end.
+												
+											</span></p>
+							
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="https://github.com/Manjinder-Kaur/Tasty-Food" class="image fit"><img src="images/bg.jpg" alt=""></a>
+										<p>
+											Tasty Food is a Recipe website where we can check how to prepare food with the list
+											of ingredients and we can even enjoy while watching the videos of it.<br>
+											This is a team project in which we have used :<br>
+                                            <b>HTML, CSS, JavaScript, PHP and MySql for database connectivity.</b> 
+
+										</p>
+										
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="https://github.com/Manjinder-Kaur/House_joy" class="image fit"><img src="images/logog.jpg" alt=""></a>
+										<p>
+											House_Joy is a an online platform which connected customers with home service
+											providers, including house cleaners  Plumber, Carpenter, Salon, Technician, 
+											Electrician,etc..<br>
+											 This is a project in which we have used :<br>
+                                            <b>HTML, CSS, JavaScript, PHP and MySql for database connectivity.</b>
+										</p>
+										
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="https://github.com/Manjinder-Kaur/Photo-Gallery" class="image fit"><img src="images/img4.jpg" alt=""></a>
+										<p>
+											Photo Gallery is a view used to show items in a center locked, horizontal
+											scrolling list and user will select a view and then user selected view will
+											be shown in the center of the Horizontal list.<br>
+											 The items in  Gallery are added using :<br>
+                                            <b>Adapter just like in ListView or GridView.</b>
+										</p>
+										
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="https://github.com/Manjinder-Kaur/Ayurveda" class="image fit"><img src="images/index1.jpg" alt=""></a>
+										<p>
+											Ayurveda is a ayurvedic medicinal website that was able to maintain and
+											sells ayurvedic products. In this we can order Ayurvedic medicines online.<br>
+											Ayurveda emphasizes good health and prevention and treatment of illness
+											through lifestyle practices (such as massage, meditation, yoga, and dietary
+											changes) and the use of herbal remedies.<br>
+											<b>Technologies used:</b><br>
+                                            HTML, CSS, JavaScript, PHP and MySql for database connectivity.
+										</p>
+										
+										</div>
+										
+									</div>
+								</section>
+							</article>
+
+						<!-- Contact -->
+							<article id="contact" class="panel">
+								<header>
+									<h2>Contact Me</h2>
+								</header>
+								<form action="/index.html">
+									<input type="text" id="fname" name="firstname" placeholder="First Name" required>
+									<input type="text" id="lname" name="lastname" placeholder="Last Name" required>
+									<input type="text" id="lname" name="email" placeholder="Email" required>
+									<textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+   								    <input type="submit" value="Submit">
+								
+								</form>
+							</article>
+
+					</div>
+
+				<!-- Footer -->
+					<div id="footer">
+						<ul class="copyright">
+							<li>&copy; Manjinder Kaur </li><li>Front End Developer</li>
+							<li>manjinderkaur028@gmail.com</li>
+							<li>
+								<p> 
+									<a href="https://www.linkedin.com/in/manjinder-kaur-7b1706147/">
+							<img src="images/LINKEDIN.png" alt="IOG Linkedin" style="width:22px;height:22px;">
+									</a></p> 
+							</li>
+						</ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
